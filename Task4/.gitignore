@@ -1,0 +1,7 @@
+# Task 4 — large/generated artifacts (do not commit)
+data/
+checkpoints/
+outputs/
+*.tar.gz
+.ipynb_checkpoints/
+__pycache__/
