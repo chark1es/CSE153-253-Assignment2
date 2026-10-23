@@ -12,6 +12,8 @@ then render audio with a Griffin-Lim vocoder. The dataset is
 
 ## Setup
 
+Requires Python 3.11+ (Pillow 13, the Oct 2026 advisory floor, needs 3.11).
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook task4_workbook.ipynb   # then Run All

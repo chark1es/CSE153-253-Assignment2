@@ -1,5 +1,6 @@
 # Task 4 — Cross-Instrument Note Timbre Transfer
-# Python 3.9+ (developed on 3.9.6). Install with:  pip install -r requirements.txt
+# Python 3.11+ (Pillow 13, the Oct 2026 advisory floor, requires >= 3.11).
+# Install with:  pip install -r requirements.txt
 torch>=2.0
 torchaudio>=2.0
 librosa>=0.10
@@ -7,6 +8,8 @@ soundfile>=0.12      # writes MP3 directly (libsndfile >= 1.1), no ffmpeg needed
 numpy
 pandas
 matplotlib
+pillow>=13.0.0       # Oct 2026 advisory floor (matplotlib figure export)
+certifi>=2026.10.19  # Oct 2026 advisory floor (jupyter -> requests CA bundle)
 tqdm
 jupyter
 ipython
